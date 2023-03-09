@@ -8,5 +8,6 @@ require('./lib/startup/validateDependencies')().then(() => {
   server.start()
 })
 
-
-// Código que quebra o app
+/*
+ * Código que não quebra o app
+ */
