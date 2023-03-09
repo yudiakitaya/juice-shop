@@ -14,3 +14,6 @@ require('./lib/startup/validateDependencies')().then(() => {
 
 
 /* Nova feature de busca por produtos */
+
+
+/* Nova feature de crédito pessoal */
