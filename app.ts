@@ -11,3 +11,6 @@ require('./lib/startup/validateDependencies')().then(() => {
 /*
  * Código que não quebra o app
  */
+
+
+/* Nova feature de busca por produtos */
