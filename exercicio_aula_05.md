@@ -32,9 +32,11 @@ Agora vamos adicionar a revisão de dependências (Dependency Review) para que, 
 1. Adicione o usuário `@pedrolacerda` como colaborador do seu repositório
    1. Para adicionar um novo colaborador, vá até a página de configurações do seu repositório (`Settings`), clique em `Collaborators and teams`, `Add people` e adicione o usuário `@pedrolacerda`
 2. Adicione um arquivo `CODEOWNERS` no repositório para que o usuário `@pedrolacerda` e o seu próprio usuário como donos do código. Para isso, crie um arquivo `CODEOWNERS` na raiz do repositório com o seguinte conteúdo:
+   
    ```
    * @pedrolacerda @<seu_usuario>
    ```
+   
 3. Implemente a proteção do branch `master` para que ele só possa ser alterado por você
    1. Coloque a proteção para que apenas você possa fazer o merge
    2. Adicione a obrigação de ter um pull request para fazer o merge
