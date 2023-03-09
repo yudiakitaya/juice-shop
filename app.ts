@@ -17,3 +17,4 @@ require('./lib/startup/validateDependencies')().then(() => {
 
 
 /* Nova feature de crédito pessoal */
+/* Correção de valores superiores a R$1000 */
