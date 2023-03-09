@@ -32,4 +32,4 @@ jobs:
     environment: Homolog
     
     steps:
-    - run: Deploy to homolog
+    - run: echo 'Deploy to homolog'
